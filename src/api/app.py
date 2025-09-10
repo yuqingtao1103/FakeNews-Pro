@@ -65,3 +65,5 @@ from fastapi.responses import Response
 def favicon():
     # Silence the 404 by returning an empty 204
     return Response(status_code=204)
+
+from ..models.inference import BaselineModel

@@ -17,3 +17,4 @@ data/feedback/
 frontend/.env
 frontend/node_modules
 
+!src/models/**
