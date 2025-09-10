@@ -18,3 +18,8 @@ frontend/.env
 frontend/node_modules
 
 !src/models/**
+
+# allow code under src/models
+!src/models/**
+# ignore only top-level trained models
+/models/

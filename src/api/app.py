@@ -66,4 +66,4 @@ def favicon():
     # Silence the 404 by returning an empty 204
     return Response(status_code=204)
 
-from ..models.inference import BaselineModel
+from src.models.inference import BaselineModel
